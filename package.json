@@ -1,0 +1,43 @@
+{
+    "name": "@syncfusion/ej2-vue-blockeditor-collaborative-editing",
+    "private": true,
+    "version": "1.0.0",
+    "description": "EJ2 Vue Blockeditor - Collaborative Editing",
+    "author": "Syncfusion Inc.",
+    "license": "SEE LICENSE IN license",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc -b && vite build",
+        "preview": "vite preview",
+        "ci-publish": "gulp publish-sample",
+        "hide-license": "gulp hide-license"
+    },
+    "dependencies": {
+        "@syncfusion/ej2-base": "*",
+        "@syncfusion/ej2-blockeditor": "*",
+        "@syncfusion/ej2-layouts": "*",
+        "@syncfusion/ej2-vue-blockeditor": "*",
+        "@syncfusion/ej2-vue-buttons": "*",
+        "@syncfusion/ej2-vue-inputs": "*",
+        "@syncfusion/ej2-vue-lists": "*",
+        "@syncfusion/ej2-vue-navigations": "*",
+        "@syncfusion/ej2-vue-dropdowns": "*",
+        "@syncfusion/ej2-vue-popups": "*",
+        "@syncfusion/ej2-vue-splitbuttons": "*",
+        "turndown": "^7.2.4",
+        "turndown-plugin-gfm": "^1.0.2",
+        "y-websocket": "^3.0.0",
+        "yjs": "^13.6.30",
+        "vue": "^3.5.30"
+    },
+    "devDependencies": {
+        "@syncfusion/ej2-showcase-helper": "*",
+        "@types/turndown": "^5.0.6",
+        "@types/node": "^24.12.0",
+        "@vitejs/plugin-vue": "^6.0.5",
+        "@vue/tsconfig": "^0.9.0",
+        "typescript": "~5.9.3",
+        "vite": "^8.0.1",
+        "vue-tsc": "^3.2.5"
+    }
+}
