@@ -24,6 +24,7 @@
         "@syncfusion/ej2-vue-dropdowns": "*",
         "@syncfusion/ej2-vue-popups": "*",
         "@syncfusion/ej2-vue-splitbuttons": "*",
+        "@syncfusion/ej2-tailwind3-theme": "*",
         "turndown": "^7.2.4",
         "turndown-plugin-gfm": "^1.0.2",
         "y-websocket": "^3.0.0",
